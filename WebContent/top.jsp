@@ -57,7 +57,7 @@
 				を含む
 				<input type= "submit" value = "検索">
 			</form>sssssssssssssssssssssssssssssssssssssssssssssssssssssss
-		</div>
+		</div>ddddddddddddddddddddddddddddd
 
 
 		<br />
