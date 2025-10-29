@@ -57,8 +57,8 @@
 		            <textarea name="text" cols="100" rows="5" class="tweet-box"></textarea>
 		            <br />
 		            <input type="submit" value="つぶやく">（140文字まで）
-		        </form>ssssssssssssssssssssss
-		    </c:if>ssssd
+		        </form>
+		    </c:if>
 		</div>
 
         <div class="messages">
