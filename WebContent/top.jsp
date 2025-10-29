@@ -49,17 +49,26 @@
 			<input type="date" id="end" name="end" value="${end}">
 			<input type="submit" value="絞り込み">
 		</form>
-		<br />
-		<div class="form-area">
-		    <c:if test="${ isShowMessageForm }">
-		        <form action="message" method="post">
-		            いま、どうしてる？<br />
-		            <textarea name="text" cols="100" rows="5" class="tweet-box"></textarea>
-		            <br />
-		            <input type="submit" value="つぶやく">（140文字まで）
-		        </form>ssssssssssssssssssssss
-		    </c:if>ssssd
-		</div>
+		<div class = "search"> 
+	<form action = "./" action = "get">
+		つぶやき：
+		<input type = "text" name ="word" value = "${searchWord}"/>
+		<input type="radio" name="radiobutton" value="contain" checked="checked">
+		を含む
+		<input type= "submit" value = "検索">
+	</form>
+</div>
+
+<div class = "search"> 
+	<form action = "./" action = "get">
+		つぶやき：
+		<input type = "text" name ="word" value = "${searchWord}"/>
+		<input type="radio" name="radiobutton" value="contain" checked="checked">
+		を含む
+		<input type= "submit" value = "検索">
+	</form>
+</div>
+
 
         <div class="messages">
 		 	<c:forEach items="${messages}" var="message">
